@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(224, 222, 212);
+  margin: 0px 20px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.container {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(149, 169, 177);
+}
+.leftContainer {
+  display: flex;
+  align-items: flex-end;
+  background-color: rgb(233, 233, 235);
+}
+.rightContainer {
+  display: flex;
+  align-items: flex-end;
+  background-color: rgb(233, 233, 235);
+}
+
+.cols {
+  width: 2px;
+  background-color: rgb(64, 107, 224);
+  display: inline-block;
+  margin: 0 1px;
+}
+.btn {
+  display: flex;
+  margin: 35px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
