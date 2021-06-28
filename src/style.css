@@ -24,9 +24,15 @@ body {
   background-color: rgb(233, 233, 235);
 }
 
-.cols {
-  width: 2px;
-  background-color: rgb(64, 107, 224);
+.cols-1 {
+  width: 4px;
+  background-color: #0ef165;
+  display: inline-block;
+  margin: 0 1px;
+}
+.cols-2 {
+  width: 4px;
+  background-color: rgb(14, 241, 101);
   display: inline-block;
   margin: 0 1px;
 }
